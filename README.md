@@ -1,12 +1,8 @@
 <div align="center">
-<h1> FORECASTING MODULE
+<h1> Time series forecasting module
 </div>
 
-## Table of contents
-0. [Description](#Description)
-0. [Prerequisites](#Prerequisites)
-0. [Functionalities](#Functionalities)
-0. [Model](#Model)
+
 
 ## Description
 ![Forecast Module](../figures/forecast-module.png)
@@ -19,9 +15,8 @@
 2. Research for the model that satisfy predefined constraints.
 ## Model
 ### Present
-* **Linear regression**
+* **DilatedCNN**
+* **TCN**
+* **GRU**
 * **LSTM**
-### Future
-* **Seasonal ARIMA (SARIMA)**
-* **Facebook Prophet**
-* **Nowcasting**
+* **Residual LSTM**
